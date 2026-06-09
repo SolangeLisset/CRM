@@ -1,7 +1,16 @@
 import { CircleDollarSign, Pencil, Trash2 } from "lucide-react";
 import IconButton from "./IconButton.jsx";
 
-export default function Pipeline({ pipeline, onCreate, onEdit, onDelete, onMoveDeal }) {
+export default function Pipeline({
+  pipeline,
+  ownerFilter,
+  ownerOptions,
+  onOwnerFilterChange,
+  onCreate,
+  onEdit,
+  onDelete,
+  onMoveDeal
+}) {
   function handleDragStart(event, dealId) {
     event.dataTransfer.setData("text/plain", dealId);
   }
@@ -15,7 +24,12 @@ export default function Pipeline({ pipeline, onCreate, onEdit, onDelete, onMoveD
     <>
       <div className="section-toolbar">
         <h2>Pipeline de ventas</h2>
-        <button className="primary-button" type="button" onClick={onCreate}><CircleDollarSign />Nueva oportunidad</button>
+        <div className="toolbar-actions">
+          <select className="select-control" value={ownerFilter} onChange={(event) => onOwnerFilterChange(event.target.value)}>
+            {ownerOptions.map((owner) => <option key={owner} value={owner}>{owner === "Todos" ? "Todos los responsables" : owner}</option>)}
+          </select>
+          <button className="primary-button" type="button" onClick={onCreate}><CircleDollarSign />Nueva oportunidad</button>
+        </div>
       </div>
       <div className="kanban">
         {pipeline.map((column) => (

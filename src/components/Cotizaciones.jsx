@@ -1,12 +1,23 @@
-import { FilePlus2, Pencil, Trash2 } from "lucide-react";
+import { Download, FilePlus2, Pencil, Trash2 } from "lucide-react";
 import IconButton from "./IconButton.jsx";
 
-export default function Cotizaciones({ quotes, onCreate, onEdit, onDelete }) {
+export default function Cotizaciones({ quotes, filter, onFilterChange, onCreate, onEdit, onDelete, onExport }) {
   return (
     <>
       <div className="section-toolbar">
         <h2>Cotizaciones</h2>
-        <button className="primary-button" type="button" onClick={onCreate}><FilePlus2 />Nueva cotizacion</button>
+        <div className="toolbar-actions">
+          <select className="select-control" value={filter} onChange={(event) => onFilterChange(event.target.value)}>
+            <option value="Todos">Todos los estados</option>
+            <option value="Borrador">Borrador</option>
+            <option value="Enviada">Enviada</option>
+            <option value="Revision">Revision</option>
+            <option value="Aprobada">Aprobada</option>
+            <option value="Rechazada">Rechazada</option>
+          </select>
+          <button className="secondary-button" type="button" onClick={onExport}><Download />Exportar CSV</button>
+          <button className="primary-button" type="button" onClick={onCreate}><FilePlus2 />Nueva cotizacion</button>
+        </div>
       </div>
       <div className="quote-grid">
         {quotes.map((quote) => (

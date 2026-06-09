@@ -1,0 +1,49 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#F5F7FB"/>
+  <rect width="260" height="720" fill="#102A43"/>
+  <rect x="28" y="28" width="44" height="44" rx="8" fill="#2DD4BF"/>
+  <text x="41" y="56" fill="#082F49" font-family="Inter, Arial" font-size="16" font-weight="800">SC</text>
+  <text x="86" y="47" fill="#EEF6FF" font-family="Inter, Arial" font-size="18" font-weight="800">CRM Comercial</text>
+  <text x="86" y="68" fill="#B8C7D9" font-family="Inter, Arial" font-size="13">SolangeLisset</text>
+  <g fill="#D7E5F3" font-family="Inter, Arial" font-size="16" font-weight="700">
+    <text x="42" y="132">Dashboard</text>
+    <text x="42" y="184">Clientes</text>
+    <text x="42" y="236">Empresas</text>
+    <text x="42" y="288">Cotizaciones</text>
+    <text x="42" y="340">Pipeline</text>
+  </g>
+  <text x="304" y="64" fill="#0F766E" font-family="Inter, Arial" font-size="13" font-weight="800">CRM PARA EQUIPOS COMERCIALES</text>
+  <text x="304" y="104" fill="#172033" font-family="Inter, Arial" font-size="38" font-weight="800">Dashboard</text>
+  <rect x="848" y="52" width="270" height="44" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="870" y="80" fill="#667085" font-family="Inter, Arial" font-size="14">Buscar en todo el CRM</text>
+  <g>
+    <rect x="304" y="142" width="190" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="514" y="142" width="190" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="724" y="142" width="190" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="934" y="142" width="190" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <text x="326" y="178" fill="#667085" font-family="Inter, Arial" font-size="14">Ventas estimadas</text>
+    <text x="326" y="220" fill="#172033" font-family="Inter, Arial" font-size="28" font-weight="800">$60.7M</text>
+    <text x="536" y="178" fill="#667085" font-family="Inter, Arial" font-size="14">Clientes activos</text>
+    <text x="536" y="220" fill="#172033" font-family="Inter, Arial" font-size="28" font-weight="800">128</text>
+    <text x="746" y="178" fill="#667085" font-family="Inter, Arial" font-size="14">Cotizaciones</text>
+    <text x="746" y="220" fill="#172033" font-family="Inter, Arial" font-size="28" font-weight="800">36</text>
+    <text x="956" y="178" fill="#667085" font-family="Inter, Arial" font-size="14">Tareas</text>
+    <text x="956" y="220" fill="#172033" font-family="Inter, Arial" font-size="28" font-weight="800">9</text>
+  </g>
+  <rect x="304" y="292" width="510" height="270" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="330" y="334" fill="#172033" font-family="Inter, Arial" font-size="20" font-weight="800">Ventas por etapa</text>
+  <g fill="#0F766E">
+    <rect x="330" y="382" width="390" height="18" rx="9"/>
+    <rect x="330" y="430" width="270" height="18" rx="9"/>
+    <rect x="330" y="478" width="340" height="18" rx="9"/>
+    <rect x="330" y="526" width="210" height="18" rx="9"/>
+  </g>
+  <rect x="846" y="292" width="278" height="270" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="872" y="334" fill="#172033" font-family="Inter, Arial" font-size="20" font-weight="800">Pipeline</text>
+  <rect x="872" y="374" width="224" height="42" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+  <rect x="872" y="432" width="224" height="42" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+  <rect x="872" y="490" width="224" height="42" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+  <text x="894" y="400" fill="#172033" font-family="Inter, Arial" font-size="14" font-weight="800">Andes Digital</text>
+  <text x="894" y="458" fill="#172033" font-family="Inter, Arial" font-size="14" font-weight="800">Logistica Sur</text>
+  <text x="894" y="516" fill="#172033" font-family="Inter, Arial" font-size="14" font-weight="800">Retail Nova</text>
+</svg>

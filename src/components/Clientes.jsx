@@ -1,7 +1,7 @@
-import { Pencil, Trash2, UserPlus } from "lucide-react";
+import { Download, Pencil, Trash2, UserPlus } from "lucide-react";
 import IconButton from "./IconButton.jsx";
 
-export default function Clientes({ clients, filter, onFilterChange, onCreate, onEdit, onDelete }) {
+export default function Clientes({ clients, filter, onFilterChange, onCreate, onEdit, onDelete, onSelect, onExport }) {
   return (
     <>
       <div className="section-toolbar">
@@ -14,6 +14,7 @@ export default function Clientes({ clients, filter, onFilterChange, onCreate, on
             <option value="Cliente activo">Cliente activo</option>
             <option value="Seguimiento">Seguimiento</option>
           </select>
+          <button className="secondary-button" type="button" onClick={onExport}><Download />Exportar CSV</button>
           <button className="primary-button" type="button" onClick={onCreate}><UserPlus />Nuevo cliente</button>
         </div>
       </div>
@@ -32,13 +33,13 @@ export default function Clientes({ clients, filter, onFilterChange, onCreate, on
           </thead>
           <tbody>
             {clients.map((client) => (
-              <tr key={client.id}>
+              <tr className="clickable-row" key={client.id} onClick={() => onSelect(client)}>
                 <td><strong>{client.name}</strong></td>
                 <td>{client.company}</td>
                 <td>{client.email}</td>
                 <td><span className="status-pill">{client.status}</span></td>
                 <td>{client.value}</td>
-                <td className="row-actions">
+                <td className="row-actions" onClick={(event) => event.stopPropagation()}>
                   <IconButton onClick={() => onEdit(client)} aria-label={`Editar ${client.name}`} title="Editar"><Pencil /></IconButton>
                   <IconButton danger onClick={() => onDelete(client.id)} aria-label={`Eliminar ${client.name}`} title="Eliminar"><Trash2 /></IconButton>
                 </td>
