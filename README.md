@@ -8,11 +8,16 @@ Autora: **SolangeLisset**
 
 - Dashboard con metricas comerciales.
 - Modulo de clientes con busqueda.
+- Filtro de clientes por estado comercial.
 - Modulo de empresas con resumen de contactos, ingresos y salud comercial.
 - Seguimientos organizados como linea de tiempo.
 - Cotizaciones con estado, monto y vencimiento.
 - Tareas con prioridad y responsables.
 - Pipeline de ventas tipo kanban.
+- Creacion, edicion y eliminacion de registros.
+- Persistencia con localStorage para conservar la informacion en el navegador.
+- Movimiento de oportunidades entre etapas del pipeline con arrastrar y soltar.
+- Calculo automatico de metricas del dashboard.
 - Diseno responsive para escritorio y mobile.
 
 ## Tecnologias
@@ -62,10 +67,9 @@ Tambien puedes usar una extension como Live Server en VS Code para verlo con rec
 ## Ideas para mejorar
 
 - Conectar con una API o base de datos.
-- Agregar formularios reales para crear clientes, empresas y oportunidades.
-- Guardar datos en localStorage.
 - Crear login y roles de usuario.
 - Exportar cotizaciones a PDF.
+- Agregar reportes comerciales por fecha y ejecutivo.
 
 ## Licencia
 

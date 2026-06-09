@@ -189,6 +189,10 @@ h1 {
   height: 36px;
 }
 
+.danger-button {
+  color: var(--danger);
+}
+
 .primary-button {
   display: inline-flex;
   align-items: center;
@@ -268,11 +272,31 @@ h1 {
 .section-toolbar,
 .kanban-column header,
 .quote-card div,
-.company-stats {
+.company-stats,
+.toolbar-actions,
+.row-actions,
+.card-actions {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+}
+
+.toolbar-actions,
+.row-actions,
+.card-actions {
+  justify-content: flex-end;
+}
+
+.select-control,
+.form-grid input,
+.form-grid select {
+  min-height: 42px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
 }
 
 .panel-header h2,
@@ -378,7 +402,15 @@ tr:last-child td {
 
 .company-card,
 .quote-card {
+  position: relative;
   padding: 18px;
+}
+
+.card-actions {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  gap: 6px;
 }
 
 .company-avatar {
@@ -455,7 +487,7 @@ tr:last-child td {
 
 .task-item {
   display: grid;
-  grid-template-columns: 22px 1fr;
+  grid-template-columns: 22px 1fr auto;
   align-items: center;
   gap: 12px;
   padding: 16px;
@@ -489,6 +521,10 @@ tr:last-child td {
   padding: 14px;
 }
 
+.drop-zone {
+  min-height: 330px;
+}
+
 .kanban-column header {
   margin-bottom: 12px;
 }
@@ -505,6 +541,7 @@ tr:last-child td {
 }
 
 .deal-card {
+  position: relative;
   display: grid;
   gap: 8px;
   margin-bottom: 10px;
@@ -512,11 +549,67 @@ tr:last-child td {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fbfdff;
+  cursor: grab;
 }
 
 .deal-card span {
   color: var(--primary-strong);
   font-weight: 800;
+}
+
+.deal-card.dragging {
+  opacity: 0.55;
+}
+
+.modal {
+  width: min(640px, calc(100vw - 28px));
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.modal::backdrop {
+  background: rgba(16, 42, 67, 0.45);
+}
+
+.modal-card {
+  display: grid;
+  gap: 18px;
+  padding: 20px;
+  background: var(--surface);
+}
+
+.modal-card header,
+.modal-card footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.modal-card h2 {
+  margin-bottom: 0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.form-grid label {
+  display: grid;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.form-grid input,
+.form-grid select {
+  width: 100%;
+  font-weight: 500;
 }
 
 @media (max-width: 1120px) {
@@ -585,7 +678,14 @@ tr:last-child td {
   }
 
   .pipeline-summary div,
-  .timeline-item {
+  .timeline-item,
+  .form-grid,
+  .task-item {
     grid-template-columns: 1fr;
+  }
+
+  .toolbar-actions {
+    align-items: stretch;
+    flex-direction: column;
   }
 }
