@@ -14,11 +14,9 @@ Autora: **SolangeLisset**
 
 ## Demo Online
 
-Cuando Netlify termine el deploy, agrega aqui la URL publica:
+Demo publicada en Netlify:
 
-```text
-https://TU-SITIO.netlify.app
-```
+[https://solange-cmr.netlify.app/](https://solange-cmr.netlify.app/)
 
 Repositorio: [SolangeLisset/CRM](https://github.com/SolangeLisset/CRM)
 
