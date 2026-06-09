@@ -1,0 +1,40 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="760" fill="#F5F7FB"/>
+  <rect width="270" height="760" fill="#102A43"/>
+  <text x="42" y="58" fill="#EEF6FF" font-family="Inter, Arial" font-size="20" font-weight="800">CRM Comercial</text>
+  <text x="312" y="96" fill="#172033" font-family="Inter, Arial" font-size="38" font-weight="800">Pipeline de ventas</text>
+  <rect x="820" y="54" width="180" height="42" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="844" y="81" fill="#667085" font-family="Inter, Arial" font-size="13">Todos responsables</text>
+  <rect x="1018" y="54" width="176" height="42" rx="8" fill="#0F766E"/>
+  <text x="1042" y="81" fill="#FFFFFF" font-family="Inter, Arial" font-size="13" font-weight="800">Nueva oportunidad</text>
+  <g>
+    <rect x="312" y="136" width="214" height="520" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="546" y="136" width="214" height="520" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="780" y="136" width="214" height="520" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="1014" y="136" width="214" height="520" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <text x="334" y="178" fill="#172033" font-family="Inter, Arial" font-size="18" font-weight="800">Prospectos</text>
+    <text x="568" y="178" fill="#172033" font-family="Inter, Arial" font-size="18" font-weight="800">Calificados</text>
+    <text x="802" y="178" fill="#172033" font-family="Inter, Arial" font-size="18" font-weight="800">Negociacion</text>
+    <text x="1036" y="178" fill="#172033" font-family="Inter, Arial" font-size="18" font-weight="800">Ganados</text>
+  </g>
+  <g font-family="Inter, Arial">
+    <rect x="334" y="214" width="170" height="96" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+    <text x="354" y="250" fill="#172033" font-size="15" font-weight="800">Norte Energia</text>
+    <text x="354" y="278" fill="#115E59" font-size="14" font-weight="800">$8.9M</text>
+    <rect x="334" y="330" width="170" height="96" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+    <text x="354" y="366" fill="#172033" font-size="15" font-weight="800">Clinica Central</text>
+    <text x="354" y="394" fill="#115E59" font-size="14" font-weight="800">$5.4M</text>
+    <rect x="568" y="214" width="170" height="96" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+    <text x="588" y="250" fill="#172033" font-size="15" font-weight="800">AgroValle</text>
+    <text x="588" y="278" fill="#115E59" font-size="14" font-weight="800">$7.2M</text>
+    <rect x="802" y="214" width="170" height="96" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+    <text x="822" y="250" fill="#172033" font-size="15" font-weight="800">Logistica Sur</text>
+    <text x="822" y="278" fill="#115E59" font-size="14" font-weight="800">$15.7M</text>
+    <rect x="1036" y="214" width="170" height="96" rx="8" fill="#FBFDFF" stroke="#DCE3EE"/>
+    <text x="1056" y="250" fill="#172033" font-size="15" font-weight="800">Andes Digital</text>
+    <text x="1056" y="278" fill="#115E59" font-size="14" font-weight="800">$12.4M</text>
+  </g>
+  <path d="M505 262 C548 262 548 262 568 262" stroke="#0F766E" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8"/>
+  <path d="M738 262 C780 262 780 262 802 262" stroke="#0F766E" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8"/>
+  <text x="444" y="610" fill="#667085" font-family="Inter, Arial" font-size="16">Arrastra oportunidades entre columnas y filtra por responsable.</text>
+</svg>

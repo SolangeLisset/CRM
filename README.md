@@ -3,108 +3,151 @@
 [![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-7-646cff?logo=vite&logoColor=white)](https://vite.dev/)
 [![Netlify](https://img.shields.io/badge/Deploy-Netlify-00c7b7?logo=netlify&logoColor=white)](https://www.netlify.com/)
+[![License](https://img.shields.io/badge/Licencia-Portafolio-0f766e)](#licencia)
+[![Author](https://img.shields.io/badge/Autora-SolangeLisset-eab308)](https://github.com/SolangeLisset)
 
-CRM Comercial es una aplicacion web sencilla, ordenada y visualmente cuidada creada con React para gestionar clientes, empresas, seguimientos, cotizaciones, tareas y pipeline de ventas desde un dashboard central.
+CRM Comercial es una aplicacion web creada con React para gestionar clientes, empresas, seguimientos, cotizaciones, tareas y pipeline de ventas desde un dashboard central.
 
 Autora: **SolangeLisset**
 
-![Preview del CRM Comercial](docs/preview.svg)
+![Dashboard logueado](docs/dashboard-logueado.svg)
 
-## Caracteristicas
+## Demo Online
 
-- Dashboard con metricas comerciales.
-- Login visual simulado con localStorage.
-- Modulo de clientes con busqueda.
-- Filtro de clientes por estado comercial.
-- Ficha detallada de cliente con cotizaciones, tareas, seguimientos e historial.
-- Modulo de empresas con resumen de contactos, ingresos y salud comercial.
-- Seguimientos organizados como linea de tiempo.
-- Cotizaciones con estado, monto y vencimiento.
-- Tareas con prioridad y responsables.
-- Pipeline de ventas tipo kanban.
-- Creacion, edicion y eliminacion de registros.
-- Persistencia con localStorage para conservar la informacion en el navegador.
-- Movimiento de oportunidades entre etapas del pipeline con arrastrar y soltar.
-- Calculo automatico de metricas del dashboard.
-- Busqueda global en clientes, empresas, cotizaciones, tareas y oportunidades.
+Cuando Netlify termine el deploy, agrega aqui la URL publica:
+
+```text
+https://TU-SITIO.netlify.app
+```
+
+Repositorio: [SolangeLisset/CRM](https://github.com/SolangeLisset/CRM)
+
+## Funcionalidades
+
+### Dashboard Comercial
+
+Metricas automaticas, actividad reciente y graficos para ventas por etapa, cotizaciones aprobadas y tareas completadas.
+
+![Dashboard con graficos](docs/dashboard-logueado.svg)
+
+### Clientes y Ficha Detallada
+
+Modulo de clientes con busqueda, filtro por estado, exportacion CSV y ficha detallada con cotizaciones, tareas, seguimientos e historial.
+
+![Ficha de cliente](docs/clientes-ficha.svg)
+
+### Pipeline de Ventas
+
+Pipeline tipo kanban con oportunidades movibles por arrastrar y soltar, filtro por responsable y creacion/edicion de oportunidades.
+
+![Pipeline kanban](docs/pipeline-kanban.svg)
+
+### Gestion Operativa
+
+- Login visual simulado con `localStorage`.
+- CRUD de clientes, empresas, cotizaciones, tareas y oportunidades.
+- Busqueda global en clientes, empresas, cotizaciones, tareas y pipeline.
 - Filtros por modulo.
-- Graficos comerciales en el dashboard.
-- Exportacion CSV para clientes y cotizaciones.
 - Tema claro/oscuro.
+- Exportacion CSV para clientes y cotizaciones.
 - Reset de datos demo.
-- Diseno responsive para escritorio y mobile.
+- Validaciones basicas para email, montos y vencimientos.
+- Persistencia local con `localStorage`.
+- Diseno responsive.
 
 ## Tecnologias
 
-- HTML5
-- CSS3
 - React
 - Vite
 - JavaScript modular
-- Iconos con Lucide React
+- CSS3
+- Lucide React
+- Netlify
 
-## Estructura del proyecto
+## Estructura del Proyecto
 
 ```text
 crm-comercial/
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-└── src/
-    ├── App.jsx
-    ├── main.jsx
-    ├── data.js
-    ├── styles.css
-    ├── components/
-    └── utils/
+|-- docs/
+|   |-- dashboard-logueado.svg
+|   |-- clientes-ficha.svg
+|   |-- pipeline-kanban.svg
+|   `-- preview.svg
+|-- src/
+|   |-- components/
+|   |-- utils/
+|   |-- App.jsx
+|   |-- data.js
+|   |-- main.jsx
+|   `-- styles.css
+|-- index.html
+|-- netlify.toml
+|-- package.json
+|-- package-lock.json
+|-- README.md
+`-- vite.config.js
 ```
 
-## Como ejecutar
+## Como Ejecutar Localmente
 
-Instala las dependencias y ejecuta el servidor de desarrollo.
+Instala las dependencias:
 
 ```bash
 npm install
+```
+
+Ejecuta el servidor de desarrollo:
+
+```bash
 npm run dev
 ```
 
-Luego abre la URL que muestre Vite, normalmente:
+Abre la URL que muestre Vite, normalmente:
 
-```bash
+```text
 http://localhost:5173
 ```
 
-Para generar una version lista para publicar:
+Genera una version de produccion:
 
 ```bash
 npm run build
 ```
 
-## Publicar en GitHub Pages
+Previsualiza el build:
 
-1. Sube el proyecto a un repositorio de GitHub.
-2. Entra a Settings > Pages.
-3. Selecciona la rama principal y la carpeta raiz del proyecto.
-4. Guarda los cambios y espera a que GitHub genere la URL publica.
+```bash
+npm run preview
+```
 
-## Publicar en Netlify
+## Deploy en Netlify
 
-El proyecto incluye `netlify.toml`, por lo que Netlify debe usar esta configuracion:
+Este proyecto ya incluye `netlify.toml` con la configuracion correcta:
 
-- Build command: `npm run build`
-- Publish directory: `dist`
+```toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+```
 
-Demo en Netlify: agrega aqui la URL final que entregue Netlify cuando el sitio este publicado.
+Si conectas el repositorio desde Netlify:
 
-Si Netlify muestra un error de MIME para `src/main.jsx`, significa que esta publicando el proyecto sin compilar. Revisa que el deploy use la configuracion anterior.
+1. Entra a Netlify y selecciona **Add new site**.
+2. Elige **Import an existing project**.
+3. Conecta GitHub y selecciona `SolangeLisset/CRM`.
+4. Confirma estos valores:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+5. Haz deploy.
 
-## Ideas para mejorar
+Si aparece el error `Failed to load module script` o MIME `application/octet-stream`, significa que Netlify esta publicando el proyecto sin compilar. Revisa que el directorio publicado sea `dist`, no la raiz del proyecto.
 
-- Conectar con una API o base de datos.
-- Crear login y roles de usuario.
+## Ideas Futuras
+
+- Conectar con una API o base de datos real.
+- Agregar roles y permisos reales.
 - Exportar cotizaciones a PDF.
-- Agregar reportes comerciales por fecha y ejecutivo.
+- Agregar reportes por fecha y ejecutivo comercial.
 
 ## Licencia
 

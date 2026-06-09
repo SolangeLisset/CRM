@@ -1,0 +1,53 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="760" fill="#F5F7FB"/>
+  <rect width="270" height="760" fill="#102A43"/>
+  <text x="42" y="58" fill="#EEF6FF" font-family="Inter, Arial" font-size="20" font-weight="800">CRM Comercial</text>
+  <text x="312" y="96" fill="#172033" font-family="Inter, Arial" font-size="38" font-weight="800">Clientes</text>
+  <rect x="312" y="132" width="916" height="92" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="338" y="166" fill="#172033" font-family="Inter, Arial" font-size="18" font-weight="800">Clientes</text>
+  <rect x="770" y="154" width="150" height="42" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="794" y="181" fill="#667085" font-family="Inter, Arial" font-size="13">Todos estados</text>
+  <rect x="936" y="154" width="132" height="42" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="960" y="181" fill="#172033" font-family="Inter, Arial" font-size="13" font-weight="800">Exportar CSV</text>
+  <rect x="1082" y="154" width="120" height="42" rx="8" fill="#0F766E"/>
+  <text x="1102" y="181" fill="#FFFFFF" font-family="Inter, Arial" font-size="13" font-weight="800">Nuevo cliente</text>
+  <rect x="312" y="250" width="916" height="270" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <g font-family="Inter, Arial" font-size="14">
+    <text x="340" y="292" fill="#667085" font-weight="800">Nombre</text>
+    <text x="540" y="292" fill="#667085" font-weight="800">Empresa</text>
+    <text x="746" y="292" fill="#667085" font-weight="800">Estado</text>
+    <text x="910" y="292" fill="#667085" font-weight="800">Valor</text>
+    <line x1="312" y1="314" x2="1228" y2="314" stroke="#DCE3EE"/>
+    <text x="340" y="354" fill="#172033" font-weight="800">Camila Rojas</text>
+    <text x="540" y="354" fill="#172033">Andes Digital</text>
+    <text x="746" y="354" fill="#115E59" font-weight="800">Cliente activo</text>
+    <text x="910" y="354" fill="#172033">$12.400.000</text>
+    <line x1="312" y1="382" x2="1228" y2="382" stroke="#DCE3EE"/>
+    <text x="340" y="422" fill="#172033" font-weight="800">Valentina Soto</text>
+    <text x="540" y="422" fill="#172033">Logistica Sur</text>
+    <text x="746" y="422" fill="#115E59" font-weight="800">Negociacion</text>
+    <text x="910" y="422" fill="#172033">$15.700.000</text>
+  </g>
+  <rect x="420" y="132" width="640" height="520" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="452" y="174" fill="#0F766E" font-family="Inter, Arial" font-size="13" font-weight="800">FICHA DE CLIENTE</text>
+  <text x="452" y="214" fill="#172033" font-family="Inter, Arial" font-size="30" font-weight="800">Camila Rojas</text>
+  <rect x="452" y="236" width="118" height="30" rx="15" fill="#E6FFFB"/>
+  <text x="468" y="256" fill="#115E59" font-family="Inter, Arial" font-size="12" font-weight="800">Cliente activo</text>
+  <g>
+    <rect x="452" y="298" width="270" height="130" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <text x="474" y="332" fill="#172033" font-family="Inter, Arial" font-size="17" font-weight="800">Datos comerciales</text>
+    <text x="474" y="366" fill="#667085" font-family="Inter, Arial" font-size="14">Empresa: Andes Digital</text>
+    <text x="474" y="394" fill="#667085" font-family="Inter, Arial" font-size="14">Valor: $12.400.000</text>
+    <rect x="748" y="298" width="270" height="130" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <text x="770" y="332" fill="#172033" font-family="Inter, Arial" font-size="17" font-weight="800">Cotizaciones</text>
+    <text x="770" y="366" fill="#667085" font-family="Inter, Arial" font-size="14">COT-1048 - Enviada</text>
+    <text x="770" y="394" fill="#667085" font-family="Inter, Arial" font-size="14">$12.400.000</text>
+    <rect x="452" y="452" width="270" height="130" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <text x="474" y="486" fill="#172033" font-family="Inter, Arial" font-size="17" font-weight="800">Tareas</text>
+    <text x="474" y="520" fill="#667085" font-family="Inter, Arial" font-size="14">Enviar resumen de demo</text>
+    <rect x="748" y="452" width="270" height="130" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <text x="770" y="486" fill="#172033" font-family="Inter, Arial" font-size="17" font-weight="800">Historial</text>
+    <text x="770" y="520" fill="#667085" font-family="Inter, Arial" font-size="14">Cotizacion enviada</text>
+    <text x="770" y="548" fill="#667085" font-family="Inter, Arial" font-size="14">Demo comercial</text>
+  </g>
+</svg>

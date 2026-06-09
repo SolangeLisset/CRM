@@ -1,0 +1,64 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="760" fill="#F5F7FB"/>
+  <rect width="270" height="760" fill="#102A43"/>
+  <rect x="28" y="28" width="44" height="44" rx="8" fill="#2DD4BF"/>
+  <text x="41" y="56" fill="#082F49" font-family="Inter, Arial" font-size="16" font-weight="800">SC</text>
+  <text x="88" y="47" fill="#EEF6FF" font-family="Inter, Arial" font-size="18" font-weight="800">CRM Comercial</text>
+  <text x="88" y="68" fill="#B8C7D9" font-family="Inter, Arial" font-size="13">SolangeLisset</text>
+  <rect x="18" y="106" width="234" height="44" rx="8" fill="rgba(255,255,255,.12)"/>
+  <g fill="#D7E5F3" font-family="Inter, Arial" font-size="15" font-weight="700">
+    <text x="44" y="134">Dashboard</text>
+    <text x="44" y="188">Clientes</text>
+    <text x="44" y="242">Empresas</text>
+    <text x="44" y="296">Seguimientos</text>
+    <text x="44" y="350">Cotizaciones</text>
+    <text x="44" y="404">Tareas</text>
+    <text x="44" y="458">Pipeline</text>
+  </g>
+  <text x="312" y="56" fill="#0F766E" font-family="Inter, Arial" font-size="13" font-weight="800">CRM PARA EQUIPOS COMERCIALES</text>
+  <text x="312" y="96" fill="#172033" font-family="Inter, Arial" font-size="38" font-weight="800">Dashboard</text>
+  <rect x="810" y="42" width="280" height="44" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="834" y="70" fill="#667085" font-family="Inter, Arial" font-size="14">Buscar en todo el CRM</text>
+  <rect x="1108" y="42" width="118" height="44" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="1126" y="61" fill="#172033" font-family="Inter, Arial" font-size="12" font-weight="800">Solange Lisset</text>
+  <text x="1126" y="77" fill="#667085" font-family="Inter, Arial" font-size="11">Administradora</text>
+  <g>
+    <rect x="312" y="132" width="214" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="546" y="132" width="214" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="780" y="132" width="214" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <rect x="1014" y="132" width="214" height="118" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+    <text x="334" y="168" fill="#667085" font-family="Inter, Arial" font-size="14">Ventas estimadas</text>
+    <text x="334" y="212" fill="#172033" font-family="Inter, Arial" font-size="30" font-weight="800">$60.700.000</text>
+    <text x="568" y="168" fill="#667085" font-family="Inter, Arial" font-size="14">Clientes activos</text>
+    <text x="568" y="212" fill="#172033" font-family="Inter, Arial" font-size="30" font-weight="800">4</text>
+    <text x="802" y="168" fill="#667085" font-family="Inter, Arial" font-size="14">Cotizaciones</text>
+    <text x="802" y="212" fill="#172033" font-family="Inter, Arial" font-size="30" font-weight="800">4</text>
+    <text x="1036" y="168" fill="#667085" font-family="Inter, Arial" font-size="14">Tareas pendientes</text>
+    <text x="1036" y="212" fill="#172033" font-family="Inter, Arial" font-size="30" font-weight="800">3</text>
+  </g>
+  <rect x="312" y="282" width="570" height="220" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="338" y="324" fill="#172033" font-family="Inter, Arial" font-size="20" font-weight="800">Ventas por etapa</text>
+  <g>
+    <text x="338" y="374" fill="#667085" font-family="Inter, Arial" font-size="13">Prospectos</text>
+    <rect x="450" y="360" width="340" height="14" rx="7" fill="#DBE5F0"/>
+    <rect x="450" y="360" width="280" height="14" rx="7" fill="#0F766E"/>
+    <text x="338" y="420" fill="#667085" font-family="Inter, Arial" font-size="13">Negociacion</text>
+    <rect x="450" y="406" width="340" height="14" rx="7" fill="#DBE5F0"/>
+    <rect x="450" y="406" width="330" height="14" rx="7" fill="#0F766E"/>
+    <text x="338" y="466" fill="#667085" font-family="Inter, Arial" font-size="13">Ganados</text>
+    <rect x="450" y="452" width="340" height="14" rx="7" fill="#DBE5F0"/>
+    <rect x="450" y="452" width="210" height="14" rx="7" fill="#0F766E"/>
+  </g>
+  <rect x="912" y="282" width="316" height="220" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="938" y="324" fill="#172033" font-family="Inter, Arial" font-size="20" font-weight="800">Cotizaciones</text>
+  <circle cx="1010" cy="404" r="58" fill="#DBE5F0"/>
+  <path d="M1010 346a58 58 0 1 1-41 99" stroke="#0F766E" stroke-width="24" fill="none"/>
+  <text x="990" y="413" fill="#172033" font-family="Inter, Arial" font-size="28" font-weight="800">1</text>
+  <text x="1092" y="384" fill="#667085" font-family="Inter, Arial" font-size="14">1 aprobada</text>
+  <text x="1092" y="414" fill="#667085" font-family="Inter, Arial" font-size="14">3 abiertas</text>
+  <text x="1092" y="444" fill="#667085" font-family="Inter, Arial" font-size="14">0 rechazadas</text>
+  <rect x="312" y="532" width="916" height="150" rx="8" fill="#FFFFFF" stroke="#DCE3EE"/>
+  <text x="338" y="574" fill="#172033" font-family="Inter, Arial" font-size="20" font-weight="800">Actividad reciente</text>
+  <text x="338" y="616" fill="#667085" font-family="Inter, Arial" font-size="15">Nueva cotizacion enviada a Andes Digital</text>
+  <text x="338" y="646" fill="#667085" font-family="Inter, Arial" font-size="15">Seguimiento agendado con Logistica Sur</text>
+</svg>
