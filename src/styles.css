@@ -84,12 +84,17 @@ input {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100%;
   min-height: 44px;
   padding: 10px 12px;
+  border: 0;
   border-radius: 8px;
+  background: transparent;
   color: #d7e5f3;
+  cursor: pointer;
   text-decoration: none;
   font-weight: 600;
+  font: inherit;
 }
 
 .nav-link svg {
@@ -207,6 +212,12 @@ h1 {
 
 .primary-button:hover {
   background: var(--primary-strong);
+}
+
+.primary-button svg,
+.icon-button svg {
+  width: 18px;
+  height: 18px;
 }
 
 .text-button {
@@ -561,23 +572,24 @@ tr:last-child td {
   opacity: 0.55;
 }
 
-.modal {
-  width: min(640px, calc(100vw - 28px));
-  padding: 0;
-  border: 0;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-}
-
-.modal::backdrop {
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: 18px;
   background: rgba(16, 42, 67, 0.45);
 }
 
 .modal-card {
   display: grid;
+  width: min(640px, calc(100vw - 28px));
   gap: 18px;
   padding: 20px;
+  border-radius: 8px;
   background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .modal-card header,

@@ -1,6 +1,6 @@
 # CRM Comercial
 
-CRM Comercial es una aplicacion web sencilla, ordenada y visualmente cuidada para gestionar clientes, empresas, seguimientos, cotizaciones, tareas y pipeline de ventas desde un dashboard central.
+CRM Comercial es una aplicacion web sencilla, ordenada y visualmente cuidada creada con React para gestionar clientes, empresas, seguimientos, cotizaciones, tareas y pipeline de ventas desde un dashboard central.
 
 Autora: **SolangeLisset**
 
@@ -24,38 +24,48 @@ Autora: **SolangeLisset**
 
 - HTML5
 - CSS3
+- React
+- Vite
 - JavaScript modular
-- Iconos con Lucide
+- Iconos con Lucide React
 
 ## Estructura del proyecto
 
 ```text
 crm-comercial/
 ├── index.html
+├── package.json
 ├── README.md
+├── vite.config.js
 └── src/
+    ├── App.jsx
+    ├── main.jsx
     ├── data.js
-    ├── main.js
-    └── styles.css
+    ├── styles.css
+    ├── components/
+    └── utils/
 ```
 
 ## Como ejecutar
 
-No requiere instalacion de dependencias. Como usa JavaScript modular, ejecutalo con un servidor local.
-
-Opciones rapidas:
+Instala las dependencias y ejecuta el servidor de desarrollo.
 
 ```bash
-python -m http.server 5173
+npm install
+npm run dev
 ```
 
-Luego abre:
+Luego abre la URL que muestre Vite, normalmente:
 
-```text
+```bash
 http://localhost:5173
 ```
 
-Tambien puedes usar una extension como Live Server en VS Code para verlo con recarga automatica.
+Para generar una version lista para publicar:
+
+```bash
+npm run build
+```
 
 ## Publicar en GitHub Pages
 
