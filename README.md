@@ -74,6 +74,15 @@ npm run build
 3. Selecciona la rama principal y la carpeta raiz del proyecto.
 4. Guarda los cambios y espera a que GitHub genere la URL publica.
 
+## Publicar en Netlify
+
+El proyecto incluye `netlify.toml`, por lo que Netlify debe usar esta configuracion:
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+Si Netlify muestra un error de MIME para `src/main.jsx`, significa que esta publicando el proyecto sin compilar. Revisa que el deploy use la configuracion anterior.
+
 ## Ideas para mejorar
 
 - Conectar con una API o base de datos.
