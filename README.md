@@ -51,7 +51,7 @@ Pipeline tipo kanban con oportunidades movibles por arrastrar y soltar, filtro p
 - Reset de datos demo.
 - Validaciones basicas para email, montos y vencimientos.
 - Persistencia local con `localStorage`.
-- Diseno responsive.
+- Diseño responsive.
 
 ## Tecnologias
 
